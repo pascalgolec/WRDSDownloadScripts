@@ -11,12 +11,10 @@ This repo contains IPython jupyter notebook scripts to download different datase
 ## Datasets
 
 * TRACE Bond transaction data
-    - intraday transation data is very large
+    - intraday transaction data is very large
     - script computes daily statistics from intraday bond transactions and create a dataset at the bond-day level
 * [Earnings Response Coefficients (ERC)](https://en.wikipedia.org/wiki/Earnings_response_coefficient): run `ERC script.ipynb`
-        * requires `getERC.py`
-* Compustat quarterly
-* Compustat annual
+    - script calculates earnings announcement returns, summary of analyst earnings forecasts and actual forecasts from IBES
 
 ## notes
 
