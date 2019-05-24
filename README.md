@@ -1,6 +1,6 @@
 # WRDSDownloadScripts
 
-This repo contains IPython jupyter notebook scripts to download different datasets from WRDS.
+This repo contains IPython jupyter notebook scripts to download specific big datasets from WRDS and calculate statistics at a more aggregated level.
 
 ## Requirements
 
@@ -10,8 +10,7 @@ This repo contains IPython jupyter notebook scripts to download different datase
 
 ## Datasets
 
-* TRACE Bond transaction data
-    - intraday transaction data is very large
+* TRACE Bond intraday transaction data
     - script computes daily statistics from intraday bond transactions and create a dataset at the bond-day level
 * [Earnings Response Coefficients (ERC)](https://en.wikipedia.org/wiki/Earnings_response_coefficient): run `ERC script.ipynb`
     - script calculates earnings announcement returns, summary of analyst earnings forecasts and actual forecasts from IBES
